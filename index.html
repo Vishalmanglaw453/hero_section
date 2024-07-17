@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hero</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media (min-width:1024px) {
+            .text-vertical {
+                writing-mode: vertical-rl;
+            }
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none !important;
+            text-decoration: none !important;
+            box-sizing: border-box !important;
+        }
+
+        .slick-dots li button:before {
+            font-size: 9px !important;
+            line-height: 11px !important;
+            opacity: unset !important;
+            color:
+                #A6CDAF;
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+        }
+
+        .slick-dots {
+            bottom: -50px;
+        }
+
+        .slick-dots li button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            width: 30px;
+            height: 20px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+
+            background: transparent;
+        }
+
+        .slick-dots li.slick-active button:before {
+            opacity: .75;
+            color: #6E9277;
+        }
+
+        .slick-dots li.slick-active button:before {
+            position: relative;
+            display: inline-block;
+            width: 18px !important;
+            height: 9px !important;
+            border-radius: 7px !important;
+            margin: 0 2px;
+            padding: 0;
+            background: #6E9277 !important;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontSize: {
+                        sm: "16px",
+                        md: "18px",
+                        xl: "25px",
+                        "2x1": "28px",
+                        "3x1": "58px", "4xl": "48px", "5x1": "58px",
+                        // font-size-added
+                        "6xl": "290px"
+
+                    },
+                    colors: {
+                        gray: "#B9BBBB",
+                        green: "#6E9277",
+                        black: "#000000",
+                        white: "#ffffff",
+                        lite_gray: "#F5F8F6",
+                        gray2: "#4D5852",
+                        liteblack: "#4D5852",
+                        darkgreen: "#48524A",
+                        darkwhite: "#F1EDE2",
+                        clifford: "#da373d",
+                        darkBlack: "#001008",
+                        inputCreamy: "#DED9CC",
+                        borderGrey: "#CDC9C0",
+                        lightWhite: "#B5BBB7",
+                        borderWhite: "#BABFBA",
+                        // color-added
+                        darkgrey: "#49534A",
+                        borderlightblack: "#CFCFCF"
+
+
+                    },
+                    fontFamily: {
+                        archivo: '"Archivo", sans-serif',
+                        kaushan: ' "Kaushan Script", cursive',
+                    },
+                    container: {
+                        center: true,
+                        screens: {
+                            sm: "540px",
+                            md: "720px",
+                            lg: "1022px",
+                            xl: "1164px",
+                        },
+                        padding: {
+                            DEFAULT: "12px",
+                        },
+                    },
+                },
+            },
+        };
+
+    </script>
+</head>
+
+<body>
+
+    <section>
+        <!-- helix hero -->
+        <div class="container pt-[100px] ">
+            <div class="row flex flex-row mx-[-12px] flex-wrap ">
+                <div class=" w-7/12 max-lg:w-full px-3  ">
+                    <div class="responsive ">
+
+                        <div class=" !flex max-sm:!justify-start !justify-center   ">
+                            <iframe width="620"
+                                src="https://www.youtube-nocookie.com/embed/UurY3FURKak?si=Mle1ggGHCHX-jfSO&amp;start=5"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                class=" border-[1px] min-h-[520px] max-sm:min-h-[314px] border-[#0000001A]"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class=" !flex max-sm:!justify-start !justify-center   ">
+                            <iframe width="620"
+                                src="https://www.youtube-nocookie.com/embed/UurY3FURKak?si=Mle1ggGHCHX-jfSO&amp;start=5"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                class=" border-[1px] min-h-[520px] max-sm:min-h-[314px] border-[#0000001A]"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class=" !flex max-sm:!justify-start !justify-center   ">
+                            <iframe width="620"
+                                src="https://www.youtube-nocookie.com/embed/UurY3FURKak?si=Mle1ggGHCHX-jfSO&amp;start=5"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                class=" border-[1px] min-h-[520px] max-sm:min-h-[314px] border-[#0000001A]"
+                                allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-5/12 max-lg:w-full max-lg:pt-[35px] px-3 flex  flex-col justify-center  lg:items-center">
+                    <div class="max-w-[463px] max-lg:max-w-[620px] ">
+                        <img width="177px" src="./assets/images/svg/helix_logo.svg" alt="helixlogo">
+                        <h2
+                            class=" inline font-archivo font-semibold text-4xl max-sm:text-2xl leading-[62.4px] mt-[20px] ">
+                            How Helix
+                            Works
+                        </h2>
+                        <p
+                            class=" font-archivo font-normal mt-[15px] max-lg:mt-[4px] text-sm max-sm:text-[14px] leading-[24px] max-sm:leading-[17px] text-darkBlack  opacity-70 ">
+                            The
+                            Helix Skin Rejuvenation Laser is a state-of-the-art skincare treatment designed to address
+                            various skin concerns and promote overall skin rejuvenation. Using advanced fractional CO2
+                            laser technology combined with 1570nm non-ablative technology, the Helix targets wrinkles,
+                            aging skin, scars, and texture issues with minimal downtime. At our dermatology clinic,
+                            we're proud to offer the Helix treatment as part of our comprehensive skincare services,
+                            helping our clients achieve smoother, more youthful-looking skin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Virtue hero -->
+        <div class="container pt-[100px] ">
+            <div class="row flex flex-row mx-[-12px] flex-wrap ">
+                <div class=" w-7/12 max-lg:w-full px-3  ">
+                    <div class="responsive ">
+                        <div class=" !flex !justify-center   ">
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/virtue_img.webp" alt="virtue">
+                        </div>
+                        <div class=" !flex !justify-center   ">
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/virtue_img.webp" alt="virtue">
+                        </div>
+                        <div class=" !flex !justify-center   ">
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/virtue_img.webp" alt="virtue">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-5/12 max-lg:w-full max-lg:pt-[35px] px-3 flex  flex-col justify-center  lg:items-center">
+                    <div class="max-w-[463px] max-lg:max-w-[620px] ">
+                        <img width="282px" src="./assets/images/svg/virtue_logo.svg" alt="helixlogo">
+                        <h2
+                            class=" inline font-archivo font-semibold text-4xl max-sm:text-2xl leading-[62.4px] mt-[20px] ">
+                            How Virtue
+                            RF Works
+                        </h2>
+                        <p
+                            class=" font-archivo font-normal text-sm mt-[15px] max-lg:mt-[4px] max-sm:text-[14px] leading-[24px] max-sm:leading-[17px] text-darkBlack  opacity-70 ">
+                            The VirtueRF is a groundbreaking microneedling system that integrates Radio Frequency (RF)
+                            energy, elevating skin rejuvenation to new heights. Its unique technology allows for
+                            precise, controlled delivery of RF energy through microneedles, stimulating collagen
+                            production deep within the skin. Designed for comfort and efficiency, VirtueRF targets fine
+                            lines, wrinkles, and scars with minimal downtime. Its customizable settings cater to various
+                            skin types and concerns, making it a versatile tool for achieving smoother, firmer, and
+                            revitalized skin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skin wave hero -->
+        <div class="container pt-[100px] ">
+            <div class="row flex flex-row mx-[-12px] flex-wrap ">
+                <div class=" w-7/12 max-lg:w-full px-3  ">
+                    <div class="responsive ">
+                        <div class=" !flex !justify-center   ">
+
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/skin-wave.webp" alt="skin">
+                        </div>
+                        <div class=" !flex !justify-center   ">
+
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/skin-wave.webp" alt="skin">
+                        </div>
+                        <div class=" !flex !justify-center   ">
+
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/skin-wave.webp" alt="skin">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-5/12 max-lg:w-full max-lg:pt-[35px] px-3 flex  flex-col justify-center  lg:items-center">
+                    <div class="max-w-[463px] max-lg:max-w-[620px] ">
+                        <img width="177px" src="./assets/images/svg/skin-wave_logo.svg" alt="helixlogo">
+                        <h2
+                            class=" inline font-archivo font-semibold text-4xl max-sm:text-2xl leading-[62.4px] mt-[20px] ">
+                            How Skinwave
+                            Works
+                        </h2>
+                        <p
+                            class=" font-archivo font-normal text-sm mt-[15px] max-lg:mt-[4px] max-sm:text-[14px] leading-[24px] max-sm:leading-[17px] text-darkBlack  opacity-70 ">
+                            The Skinwave elevates hydration-based facials to new levels. Utilizing a dynamic blend of
+                            hydrogen therapy, electroporation, and aqua delivery systems, it deeply cleanses,
+                            exfoliates, and nourishes the skin. This innovative device also infuses antioxidant-rich
+                            solutions, promoting a radiant, healthier-looking complexion. With its gentle yet effective
+                            approach, Skinwave is perfect for all skin types, offering a refreshing and revitalizing
+                            experience with no downtime.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ultra hero -->
+        <div class="container pt-[100px] ">
+            <div class="row flex flex-row mx-[-12px] flex-wrap ">
+                <div class=" w-7/12 max-lg:w-full px-3  ">
+                    <div class="responsive ">
+                        <div class=" !flex mx-1   ">
+
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/ultra_img.webp" alt="ultra">
+                        </div>
+                        <div class=" !flex mx-1   ">
+
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/ultra_img.webp" alt="ultra">
+                        </div>
+                        <div class=" !flex mx-1   ">
+
+                            <img class="w-full max-w-[620px]  border-[1px] border-[#0000001A]"
+                                src="./assets/images/png/ultra_img.webp" alt="ultra">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-5/12 max-lg:w-full max-lg:pt-[35px] px-3 flex  flex-col justify-center  lg:items-center">
+                    <div class="max-w-[463px] max-lg:max-w-[620px] ">
+                        <img width="177px" src="./assets/images/svg/ultra_logo.svg" alt="helixlogo">
+                        <h2
+                            class=" inline font-archivo font-semibold text-4xl max-sm:text-2xl leading-[62.4px] mt-[20px] ">
+                            How Ultra
+                            Works
+                        </h2>
+                        <p
+                            class=" font-archivo font-normal text-sm mt-[15px] max-lg:mt-[4px] max-sm:text-[14px] leading-[24px] max-sm:leading-[17px] text-darkBlack  opacity-70 ">
+                            Lutronic Ultra is a non-ablative laser that offers a gentle yet effective approach to
+                            improving skin texture, tone, and overall clarity. Its unique technology makes it suitable
+                            for a wide range of skin types and conditions. With minimal downtime and discomfort,
+                            Lutronic Ultra is ideal for patients seeking a quick, noticeable improvement in the evenness
+                            of their skin tone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="node_modules/@material-tailwind/html/scripts/collapse.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+
+        });
+    </script>
+</body>
+
+</html>
